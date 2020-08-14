@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="index.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 jumbotron text-center">
+                <h1 class="heading">Wikilana</h1>
+                <p><i>Live search results from wikipedia...</i></p>
+                <hr>
+                <div class="searchBox">
+                    <input type="text" class="form-control" name="search" id="search" placeholder="Type something interesting!">
+                    <br><br>
+                    <button class="bnt btn-primary random">Article of the day</button>
+                </div>
+            </div>
+
+            <div class="col-sm-8 col-sm-offset-2 searchResults">
+                <div id="update"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid embed-responsive embed-responsive-16by9">
+        <div class="row">
+            <iframe src="" frameborder="0" class="embed-responsive-item" width="1080" height="760" allowfullscreen></iframe>
+        </div>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
